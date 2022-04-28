@@ -17,6 +17,43 @@ body{
     margin: auto;
     background-color: white;
     border-radius: 15px;
+    position: relative;
+}
+/*ventana modal*/
+.ventana-modal{
+    width: 200px;
+    height: 40px;
+    background-color:var(--Very-Dark-Grayish-Blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+
+.triangulo{
+    
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid var(--Very-Dark-Grayish-Blue);
+   position: absolute;
+   right: 65px;
+   bottom: 65px;
+}
+
+
+/* .ventana-modal{
+    display: none;
+} */
+
+.icono{
+    height: 15px;
+    width: 15px;
 }
 
 .img-caja{
@@ -58,11 +95,12 @@ img{
 .icon-share:hover{
     cursor: pointer;
     /* background-color: var(--Grayish-Blue); */
-
+    
 }
 
-.icon-share:focus{
-    background-color: var(--Grayish-Blue);
+.boton:focus .icon-share{
+    background-color: red;
+    /* filter: invert(100%) */
     
 }
 
