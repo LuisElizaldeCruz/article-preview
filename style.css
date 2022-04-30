@@ -32,6 +32,7 @@ body{
     position: absolute;
     right: 0;
     bottom: 80px;
+    
 }
 
 .triangulo{
@@ -46,6 +47,9 @@ body{
    bottom: 65px;
 }
 
+.ocultar{
+    display: none;
+}
 
 /* .ventana-modal{
     display: none;
@@ -99,9 +103,8 @@ img{
 }
 
 .boton:focus .icon-share{
-    background-color: red;
-    /* filter: invert(100%) */
-    
+    background-color: var(--Very-Dark-Grayish-Blue);
+    /* filter: invert(100%) */    
 }
 
 .redes-sociales{
